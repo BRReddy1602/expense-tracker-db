@@ -1,7 +1,28 @@
 {
-  "profiles": [
-    { "id": 1, "name": "john", "age": 21 },
-    { "id": 2, "name": "judy", "age": 31 },
-    { "id": 3, "name": "jack", "age": 41 }
+  "data": [
+    {
+     name: 'Eggs',
+     price: 66,
+     quantity: 12,
+     category: 'Grocery',
+     date: '06/03/2018',
+     image: '3'
+   },
+    {
+     name: 'Petrol',
+     price: 400,
+     quantity: 5.7,
+    category: 'Petrol',
+     date: '07/03/2018',
+    image: '8'
+   },
+    {
+     name: 'Vegetables',
+     price: 200,
+     quantity: 10,
+    category: 'Vegetables',
+     date: '07/03/2018',
+    image: '1'
+   }
   ]
 }
