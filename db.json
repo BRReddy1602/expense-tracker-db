@@ -61,5 +61,15 @@
      "element": "image",
      "hide": true
    }
-]
+],
+  "emptyData":
+  {
+        "name":"",
+        "price":0,
+        "quantity":0,
+        "category":"",
+        "date":"",
+        "image":""
+     }
+  
 }
