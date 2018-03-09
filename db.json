@@ -1,65 +1,65 @@
 {
-   "data":[
-      {
-         "id":1,
-         "name":"Eggs",
-         "price":66,
-         "quantity":12,
-         "category":"Grocery",
-         "date":"06/03/2018",
-         "image":"3"
-      },
-      {
-         "id":2,
-         "name":"Petrol",
-         "price":400,
-         "quantity":5.7,
-         "category":"Petrol",
-         "date":"07/03/2018",
-         "image":"8"
-      },
-      {
-         "id":3,
-         "name":"Vegetables",
-         "price":200,
-         "quantity":10,
-         "category":"Vegetables",
-         "date":"07/03/2018",
-         "image":"1"
-      }
-   ],
+  "data":[
+     {
+        "id":1,
+        "name":"Eggs",
+        "price":66,
+        "quantity":12,
+        "category":"Grocery",
+        "date":"06/03/2018",
+        "image":"3"
+     },
+     {
+        "id":2,
+        "name":"Petrol",
+        "price":400,
+        "quantity":5.7,
+        "category":"Petrol",
+        "date":"07/03/2018",
+        "image":"8"
+     },
+     {
+        "id":3,
+        "name":"Vegetables",
+        "price":200,
+        "quantity":10,
+        "category":"Vegetables",
+        "date":"07/03/2018",
+        "image":"1"
+     }
+  ],
 "fields":[
+  {
+     "field": "name",
+     "description": "Name Of The Product",
+     "element": "text"
+   },
    {
-      "field": 'name',
-      "description": 'Name Of The Product',
-      "element": 'text'
-    },
-    {
-   "field": 'price',
-      "description": 'Price',
-      "element": 'number'
-    },
-    {
-      "field": 'quantity',
-      "description": 'Quantity',
-      "element": 'number'
-    },
-    {
-      "field": 'category',
-      "description": 'Category',
-      "element": 'dropdown',
-      "options": ['Grocery', 'Petrol', 'Medical', 'Vegetables', 'Fruits', 'Rent', 'EMI', 'Chits', 'Electricity Bill', 'Shopping', 'Resturant', 'Others']
-    },
-    {
-      "field": 'date',
-      "description": 'Date',
-      "element": 'date'
-    },
-    {
-      "field": 'image',
-      "description": 'Image',
-      "element": 'image',
-      "hide": true
-    }
+  "field": "price",
+     "description": "Price",
+     "element": "number"
+   },
+   {
+     "field": "quantity",
+     "description": "Quantity",
+     "element": "number"
+   },
+   {
+     "field": "category",
+     "description": "Category",
+     "element": "dropdown",
+     "options": ["Grocery", "Petrol", "Medical", "Vegetables", "Fruits", "Rent", "EMI", "Chits", "Electricity Bill", "Shopping", "Resturant", "Others"]
+   },
+   {
+     "field": "date",
+     "description": "Date",
+     "element": "date"
+   },
+   {
+     "field": "image",
+     "description": "Image",
+     "element": "image",
+     "hide": true
+   }
 ]
 }
